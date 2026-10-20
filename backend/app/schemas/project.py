@@ -23,3 +23,13 @@ class ProjectResponse(BaseModel):
 
     class Config:
         from_attributes = True
+
+class ToolkitDataCreate(BaseModel):
+    project_id: int
+    tool_name: str
+    data: str
+
+class ToolkitDataResponse(ToolkitDataCreate):
+    id: int
+    class Config:
+        from_attributes = True
