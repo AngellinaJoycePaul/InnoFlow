@@ -21,7 +21,7 @@ Students struggle to discover relevant internships because information is scatte
 *   **HTTP Client:** Axios
 
 ## 📂 Project Structure
-
+```
 innoflow/
 ├── backend/
 │   ├── app/
@@ -38,7 +38,7 @@ innoflow/
     │   ├── services/     # API connection (axios)
     │   └── App.jsx       # Route configuration
     └── package.json      # Node dependencies
-
+```
 ## ⚙️ How to Run Locally
 
 ### 1. Start the Backend (FastAPI)
